@@ -35,8 +35,4 @@ def ask_for_ractangle():
 
 
 if __name__ == '__main__':
-
-    # print(ask_for_temp())
-    # print(circle_temp('Szczecin'))
-    # print(ask_for_ractangle())
-    # print(rectangle_temp('Warsaw'))
+    main()

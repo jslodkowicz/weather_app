@@ -40,6 +40,4 @@ def rectangle_max_temp(city):
 
 
 if __name__ == '__main__':
-    print(rectangle_weather('Warsaw'))
-    # print(rectangle_min_temp('Warsaw'))
-    # print(rectangle_max_temp('Warsaw'))
+    main()

@@ -1,7 +1,7 @@
 import requests
 
 API_URL = 'http://api.openweathermap.org/data/2.5/'
-KEY = '88e58e33732c69a0d4687d8d2c09caf7'
+KEY = open('.private.txt', 'r').read()[:-1]
 
 CITY_URL = API_URL + 'weather?q={city_name}&APPID={key}&units=metric'
 CIRCLE_URL = API_URL + 'find?lat={}&lon={}&cnt=10&APPID={key}'
@@ -31,4 +31,4 @@ def rectangle_zone(coords):
 
 
 if __name__ == '__main__':
-    print(city_circle((14, 53)))
+    main()
